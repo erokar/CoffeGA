@@ -13,9 +13,5 @@ class Individual
 
   initialize: ->
     @alleles[Math.floor(Math.random() * @alleles.length)] for i in [1..@length]
-    #result = []
-    #for i in [1..@length]
-    #  result.push(@alleles[Math.floor(Math.random() * @alleles.length)])
-    #return result
 
 window.Individual = Individual

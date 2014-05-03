@@ -26,6 +26,7 @@ class Crossover
         child.push(element)
     return child
 
+  # Array -> Array
   @uniform: (mom, dad) ->
     child = []
     for element, index in mom
