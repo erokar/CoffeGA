@@ -12,11 +12,8 @@
       beforeEach(function() {
         return bitFlip = Mutation.bitFlip(individual.genome);
       });
-      it("should return a genome of the correct length", function() {
+      return it("should return a genome of the correct length", function() {
         return expect(bitFlip.length).toEqual(individual.genome.length);
-      });
-      return it("should return a different genome", function() {
-        return expect(bitFlip).not.toEqual(individual.genome);
       });
     });
     return describe("inverse() mutation", function() {
@@ -25,11 +22,8 @@
       beforeEach(function() {
         return inverse = Mutation.inverse(individual.genome);
       });
-      it("should return a genome of the correct length", function() {
+      return it("should return a genome of the correct length", function() {
         return expect(inverse.length).toEqual(individual.genome.length);
-      });
-      return it("should return a different genome", function() {
-        return expect(inverse).not.toEqual(individual.genome);
       });
     });
   });

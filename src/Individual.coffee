@@ -14,4 +14,4 @@ class Individual
   initialize: ->
     @alleles[Math.floor(Math.random() * @alleles.length)] for i in [1..@length]
 
-window.Individual = Individual
+this.Individual = Individual

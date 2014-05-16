@@ -27,4 +27,4 @@ class Mutation
     [genome[index1], genome[index2]] = [genome[index2], genome[index1]]
     return genome
 
-this.Mutation = Mutation
+window.Mutation = Mutation

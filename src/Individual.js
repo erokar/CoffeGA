@@ -37,7 +37,7 @@
 
   })();
 
-  window.Individual = Individual;
+  this.Individual = Individual;
 
 }).call(this);
 

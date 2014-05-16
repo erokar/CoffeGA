@@ -39,7 +39,7 @@
 
   })();
 
-  this.Mutation = Mutation;
+  window.Mutation = Mutation;
 
 }).call(this);
 
